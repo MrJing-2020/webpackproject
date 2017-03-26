@@ -11,18 +11,19 @@
 // import '../assets/scripts/jquery.placeholder.js';
 
 
-import Vue from 'vue'
-import VueResource from 'vue-resource'
-import Router from './route'
+import Vue from 'vue';
+// import VueResource from 'vue-resource'
+import router from './route';
 
-Vue.use(VueResource);
+// Vue.use(VueResource);
 
-Vue.http.options.emulateJSON = true;
-Vue.http.headers.common['Authorization'] = 'bearer ' + localStorage.token;
+// Vue.http.options.emulateJSON = true;
+// Vue.http.headers.common['Authorization'] = 'bearer ' + localStorage.token;
 
 new Vue({
     el: '#app',
-    router: Router,
-    data: {},
-    methods: {}
-}).$mount('#app')
+    router,
+    // router: Router
+    // data: {},
+    // methods: {}
+}).$mount('#app');

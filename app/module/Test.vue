@@ -121,15 +121,3 @@
 					<!-- end: page -->
 	</div>
 </template>
-<script>
-    export default {
-        name: 'App',
-        data () {
-            return {
-                msg: 'App.vue'
-            }
-        },
-        methods: {
-        }
-    }
-</script>

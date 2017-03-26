@@ -1,6 +1,6 @@
 var path = require('path');
 var HtmlwebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack')
+var webpack = require('webpack');
     //定义了一些文件夹的路径
 var ROOT_PATH = path.resolve(__dirname);
 //Template的文件夹路径
@@ -107,5 +107,5 @@ module.exports = {
         //     inject: 'body'
         // })
     ]
-}
+};
 

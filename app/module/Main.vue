@@ -128,16 +128,6 @@
         <!-- end: page -->
     </div>
 </template>
-<script>
-    export default {
-        name: 'Main',
-        data () {
-        return {
-            msg: 'Main.vue'
-        }
-    }
-    }
-</script>
 <style>
     .sidebar-right-toggle{
         visibility:hidden;
