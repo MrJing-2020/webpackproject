@@ -1,7 +1,6 @@
 ;
-jQuery.cumTheme = function() {
+jQuery.Cumtheme = function() {
     window.theme = {};
-
     // Navigation
     (function($) {
 
@@ -60,7 +59,7 @@ jQuery.cumTheme = function() {
         });
 
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Skeleton
     (function(theme, $) {
@@ -89,7 +88,7 @@ jQuery.cumTheme = function() {
                 }
             },
 
-            customScroll: (!Modernizr.overflowscrolling && !isAndroid && $.fn.nanoScroller !== 'undefined'),
+            customScroll: (false && !isAndroid && $.fn.nanoScroller !== 'undefined'),
 
             initialize: function() {
                 this
@@ -470,7 +469,7 @@ jQuery.cumTheme = function() {
             Skeleton: Skeleton
         });
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Base
     (function(theme, $) {
@@ -481,13 +480,8 @@ jQuery.cumTheme = function() {
 
         theme.Skeleton.initialize();
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
-    /*
-    Name: 			Theme Admin Extension
-    Written by: 	Okler Themes - (http://www.okler.net)
-    Theme Version: 	1.4.1
-    */
 
     window.theme = {};
 
@@ -663,7 +657,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Lock Screen
     (function($) {
@@ -818,7 +812,7 @@ jQuery.cumTheme = function() {
             LockScreen.initialize();
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Panels
     (function($) {
@@ -934,7 +928,7 @@ jQuery.cumTheme = function() {
             });
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Form to Object
     (function($) {
@@ -1194,7 +1188,7 @@ jQuery.cumTheme = function() {
             $('[data-loading-overlay]').loadingOverlay();
         });
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Scroll to Top
     (function(theme, $) {
@@ -1216,7 +1210,7 @@ jQuery.cumTheme = function() {
                 },
 
                 initialize: function(opts) {
-                    initialized = true;
+                    var initialized = true;
 
                     this
                         .setOptions(opts)
@@ -1309,7 +1303,7 @@ jQuery.cumTheme = function() {
 
         });
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Codemirror
     (function(theme, $) {
@@ -1383,7 +1377,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Colorpicker
     (function(theme, $) {
@@ -1452,7 +1446,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Datepicker
     (function(theme, $) {
@@ -1532,7 +1526,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // iosSwitcher
     (function(theme, $) {
@@ -1597,7 +1591,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Markdown
     (function(theme, $) {
@@ -1668,7 +1662,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Masked Input
     (function(theme, $) {
@@ -1737,7 +1731,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // MaxLength
     (function(theme, $) {
@@ -1811,7 +1805,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // MultiSelect
     (function(theme, $) {
@@ -1884,7 +1878,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Select2
     (function(theme, $) {
@@ -1953,7 +1947,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Spinner
     (function(theme, $) {
@@ -2022,7 +2016,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // SummerNote
     (function(theme, $) {
@@ -2098,7 +2092,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // TextArea AutoSize
     (function(theme, $) {
@@ -2168,7 +2162,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // TimePicker
     (function(theme, $) {
@@ -2239,7 +2233,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Map Builder
     (function(theme, $) {
@@ -3165,7 +3159,7 @@ jQuery.cumTheme = function() {
             });
         });
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Animate
     (function(theme, $) {
@@ -3268,7 +3262,7 @@ jQuery.cumTheme = function() {
             });
         };
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Carousel
     (function(theme, $) {
@@ -3346,7 +3340,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Chart Circular
     (function(theme, $) {
@@ -3466,7 +3460,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Lightbox
     (function(theme, $) {
@@ -3551,7 +3545,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Portlets
     (function(theme, $) {
@@ -3749,7 +3743,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Scrollable
     (function(theme, $) {
@@ -3826,7 +3820,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Slider
     (function(theme, $) {
@@ -3924,7 +3918,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Toggle
     (function(theme, $) {
@@ -4091,7 +4085,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Widget - Todo
     (function(theme, $) {
@@ -4203,7 +4197,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Widget - Toggle
     (function(theme, $) {
@@ -4296,7 +4290,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Word Rotate
     (function(theme, $) {
@@ -4403,7 +4397,7 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Data Tables - Config
     (function($) {
@@ -4451,7 +4445,7 @@ jQuery.cumTheme = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Notifications - Config
     (function($) {
@@ -4486,5 +4480,6 @@ jQuery.cumTheme = function() {
             });
         }
 
-    }).apply(this, [jQuery]);
-};
+    }).apply(window.jQuery, [jQuery]);
+}
+;

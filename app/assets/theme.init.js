@@ -8,7 +8,7 @@ jQuery.cumThemeInit = function() {
             $('[data-toggle=popover]').popover();
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Tooltip
     (function($) {
@@ -19,7 +19,7 @@ jQuery.cumThemeInit = function() {
             $('[data-toggle=tooltip],[rel=tooltip]').tooltip({ container: 'body' });
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Scroll to Top
     (function(theme, $) {
@@ -27,7 +27,7 @@ jQuery.cumThemeInit = function() {
         if (typeof theme.PluginScrollToTop !== 'undefined') {
             theme.PluginScrollToTop.initialize();
         }
-    }).apply(this, [window.theme, jQuery]);
+    }).apply(window.jQuery, [jQuery, jQuery]);
 
     // Sidebar Widgets
     (function($) {
@@ -60,7 +60,7 @@ jQuery.cumThemeInit = function() {
             });
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // iosSwitcher
     (function($) {
@@ -76,7 +76,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Codemirror
     (function($) {
@@ -100,7 +100,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Colorpicker
     (function($) {
@@ -124,7 +124,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Datepicker
     (function($) {
@@ -148,7 +148,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // iosSwitcher
     (function($) {
@@ -167,7 +167,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Markdown
     (function($) {
@@ -191,7 +191,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Masked Input
     (function($) {
@@ -215,7 +215,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // MaxLength
     (function($) {
@@ -239,7 +239,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // MultiSelect
     (function($) {
@@ -265,7 +265,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     (function($) {
 
@@ -277,7 +277,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
 
     // Select2
@@ -302,7 +302,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Spinner
     (function($) {
@@ -326,7 +326,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // SummerNote
     (function($) {
@@ -350,7 +350,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // TextArea AutoSize
     (function($) {
@@ -374,7 +374,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // TimePicker
     (function($) {
@@ -398,7 +398,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Mailbox
     (function($) {
@@ -413,7 +413,7 @@ jQuery.cumThemeInit = function() {
             });
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Animate
     (function($) {
@@ -437,7 +437,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Carousel
     (function($) {
@@ -461,7 +461,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Chart Circular
     (function($) {
@@ -485,7 +485,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Lightbox
     (function($) {
@@ -509,7 +509,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Portlets
     (function($) {
@@ -526,7 +526,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Portlets
     (function($) {
@@ -546,7 +546,7 @@ jQuery.cumThemeInit = function() {
             });
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Scrollable
     (function($) {
@@ -571,7 +571,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Slider
     (function($) {
@@ -596,7 +596,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Toggle
     (function($) {
@@ -616,7 +616,7 @@ jQuery.cumThemeInit = function() {
             });
         });
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Widget - Todo
     (function($) {
@@ -640,7 +640,7 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Widget - Toggle
     (function($) {
@@ -663,7 +663,7 @@ jQuery.cumThemeInit = function() {
             });
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 
     // Word Rotate
     (function($) {
@@ -687,5 +687,6 @@ jQuery.cumThemeInit = function() {
 
         }
 
-    }).apply(this, [jQuery]);
+    }).apply(window.jQuery, [jQuery]);
 };
+// Popover

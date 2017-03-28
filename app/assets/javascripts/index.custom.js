@@ -1,11 +1,14 @@
 ;
 $(function() {
-	jQuery.Cumtheme();
-	jQuery.cumThemeInit();
-	$(".nav-router").click(function() {
-		jQuery.Cumtheme();
-		jQuery.cumThemeInit();
-	});
+    jQuery.cumTheme();
+    jQuery.cumThemeInit();
+    $(".nav-router").click(function() {
+        setTimeout(function() {
+            jQuery.cumTheme();
+            jQuery.cumThemeInit();
+        }, 300);
+
+    });
     $('.nav.nav-main').find('li').click(
         function() {
             if ($(this).attr('class') == undefined || $(this).attr('class') == '') {
